@@ -1,0 +1,31 @@
+
+.clientes{
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    width: 500px;
+    height: auto;
+    box-shadow: 0 0  15px #6c6c6c;
+    margin-top: 50px;
+    
+}
+.clientes h1{
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+.form-group{
+    margin-bottom: 25px;
+}
+.input-content input{
+    margin-bottom: 15px;
+}
+
+form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

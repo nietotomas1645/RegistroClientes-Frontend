@@ -1,0 +1,11 @@
+<table class="table table-sm">
+    <th><h3>Nombre:</h3></th>
+    <th><h3>Apellido:</h3></th>
+    <th><h3>Dirección:</h3></th>
+    <tr *ngFor="let cliente of clienteService.list">
+        <td>{{cliente.nombre}}</td>
+        <td>{{cliente.apellido}}</td>
+        <td>{{cliente.direccion}}</td>
+
+    </tr>
+</table>
